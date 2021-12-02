@@ -1,4 +1,7 @@
-def count_increments_and_decrements(depths):
+from typing import List
+
+
+def count_increments_and_decrements(depths: List[int]):
     last = None
     num_increments = 0
     num_decrements = 0
@@ -19,7 +22,22 @@ def count_increments_and_decrements(depths):
     return num_increments, num_decrements
 
 
+def sum_sliding_window(depths: List[int], sliding_window: int = 3):
+    sliding_depths = []
+    for start_idx in range(0, len(depths)):
+        end_idx = start_idx + sliding_window
+        if end_idx - start_idx == sliding_window:
+            sliding_depths.append(sum(depths[start_idx: end_idx]))
+    return sliding_depths
+
+
 if __name__ == '__main__':
-    with open('day1_input.txt') as f:
-        print(count_increments_and_decrements([int(l) for l in f.readlines()]))
+    with open('./day1_input.txt') as f:
+        terrain_depths = [int(line) for line in f.readlines() if line]
+
+    print(count_increments_and_decrements(terrain_depths))
+    sliding_depths_sums = sum_sliding_window(terrain_depths)
+    print(sliding_depths_sums)
+    print(count_increments_and_decrements(sliding_depths_sums))
+
 
