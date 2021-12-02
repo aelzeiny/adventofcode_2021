@@ -1,0 +1,5 @@
+.idea/*
+.idea
+.vscode
+__pycache__
+*.xml
