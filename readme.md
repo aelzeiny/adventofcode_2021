@@ -19,4 +19,5 @@ Day 2: Python
 Day 3: Python
 Day 4: GoLang
 Day 5: GoLang
+Day 6: Ruby
 ```
