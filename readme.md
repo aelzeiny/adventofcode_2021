@@ -21,4 +21,5 @@ Day 4: GoLang
 Day 5: GoLang
 Day 6: Ruby
 Day 7: Ruby
+Day 8: Java
 ```
