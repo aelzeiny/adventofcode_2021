@@ -32,7 +32,7 @@ def sum_sliding_window(depths: List[int], sliding_window: int = 3):
 
 
 if __name__ == '__main__':
-    with open('./day1_input.txt') as f:
+    with open('./day01_input.txt') as f:
         terrain_depths = [int(line) for line in f.readlines() if line]
 
     print(count_increments_and_decrements(terrain_depths))
