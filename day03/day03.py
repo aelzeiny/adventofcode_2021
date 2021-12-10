@@ -73,7 +73,7 @@ def part_two(binary_nums: List[List[int]]):
 
 
 if __name__ == '__main__':
-    with open('./day3_input.txt', 'r') as input_file:
+    with open('./day03_input.txt', 'r') as input_file:
         sub_output = [
             [int(dig) for dig in binary.strip()]
             for binary in input_file.readlines()

@@ -68,7 +68,7 @@ def part_two(subs)
 end
 
 
-crab_subs = File.read("./day7_input.txt").split(",").map(&:to_i)
+crab_subs = File.read("./day07_input.txt").split(",").map(&:to_i)
 p part_one(crab_subs)  # Median works for part i
 # p brute_force(crab_subs)  # mean works for part i
 p weighted_brute_force(crab_subs)  # brute force works for part ii

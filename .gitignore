@@ -5,3 +5,6 @@ __pycache__
 *.xml
 out
 *.iml
+obj
+bin
+.DS_Store

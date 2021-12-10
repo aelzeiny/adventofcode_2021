@@ -163,7 +163,7 @@ class HeatMap {
 public class Day9 {
     public static void main(String[] args) {
         try {
-            File myObj = new File("day9_input.txt");
+            File myObj = new File("day09_input.txt");
             Scanner myReader = new Scanner(myObj);
             HeatMap heatmap = new HeatMap();
             while (myReader.hasNextLine()) {

@@ -105,7 +105,7 @@ func scannedLineToCoord(coordString string) Coord {
 }
 
 func main() {
-	file, err := os.Open("./day5_input.txt")
+	file, err := os.Open("./day05_input.txt")
 	if err != nil {
 		log.Fatal(err)
 	}

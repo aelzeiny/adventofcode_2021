@@ -54,7 +54,7 @@ def part_two(days, fishies)
 end
 
 
-fish_input = File.read("./day6_input.txt").split(",").map {|s| s.to_i}
+fish_input = File.read("./day06_input.txt").split(",").map {|s| s.to_i}
 part_one(80, fish_input)
 part_two(80, fish_input)
 part_two(256, fish_input)

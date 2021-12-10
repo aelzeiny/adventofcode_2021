@@ -147,7 +147,7 @@ public class Day8 {
         ArrayList<PatternSolver> solvers = new ArrayList<>();
         ArrayList<List<Pattern>> encoded = new ArrayList<>();
         try {
-            File myObj = new File("day8_input.txt");
+            File myObj = new File("day08_input.txt");
             Scanner myReader = new Scanner(myObj);
             while (myReader.hasNextLine()) {
                 String data = myReader.nextLine();

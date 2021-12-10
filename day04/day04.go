@@ -150,7 +150,7 @@ func partTwo(moves []int, boards []Board) *Board {
 }
 
 func main() {
-	file, err := os.Open("./day4_input.txt")
+	file, err := os.Open("./day04_input.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
