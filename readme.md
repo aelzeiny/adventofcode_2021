@@ -14,13 +14,19 @@ Ruby
 
 Day-by-day programming language breakdown:
 ```
-Day 1: Python
-Day 2: Python
-Day 3: Python
-Day 4: GoLang
-Day 5: GoLang
-Day 6: Ruby
-Day 7: Ruby
-Day 8: Java
-Day 9: Java
+Day 01: Python
+Day 02: Python
+Day 03: Python
+Day 04: GoLang
+Day 05: GoLang
+Day 06: Ruby
+Day 07: Ruby
+Day 08: Java
+Day 09: Java
+Day 10: C#
+Day 11: C#
+Day 12: JavaScript
+Day 13: JavaScript
+Day 14: TypeScript
+Day 15: TypeScript
 ```
