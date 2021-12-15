@@ -8,3 +8,4 @@ out
 obj
 bin
 .DS_Store
+.ipynb_checkpoints
