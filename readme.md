@@ -29,4 +29,5 @@ Day 12: JavaScript
 Day 13: JavaScript
 Day 14: TypeScript
 Day 15: TypeScript
+Day 16: Python + Jupyter
 ```
